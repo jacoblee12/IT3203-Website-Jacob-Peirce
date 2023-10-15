@@ -1,7 +1,7 @@
 .content {
     max-width: 75em;
     margin: auto;
-    background-color: #62cc6d;
+    background-color: #c0e38a;
 }
 #outerContainerHeader {
     display: flex;
@@ -14,6 +14,39 @@
 	margin:auto;
 	float:left;
 }
+.outerContainerAnimals {
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: center;
+	margin:auto;
+	padding: 4em;
+}
+.innerContainerAnimals {
+	margin:auto;
+}
+.animalPics {
+	width: 20em;
+	height: 20em;
+}
+.merchPics {
+	width: 14em;
+	height: 14em;
+}
+.centeredPic {
+	width: 20em;
+	height: 20em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 33%;
+}
+
+.animalText {
+	font-size:1.5em;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
 #headerText {
 	position: relative;
     top: 50%;
@@ -21,6 +54,41 @@
 	font-size:2.5em;
 	text-align:center;
 	font-family: Arial, Helvetica, sans-serif;
+}
+.bodyText {
+	position: relative;
+    top: 50%;
+	margin:auto;
+	font-size:2.5em;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.bodyText2 {
+	position: relative;
+    top: 50%;
+	margin:auto;
+	font-size:1.8em;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.bodyHTML {
+	padding:0px;
+	margin:0px;
+}
+.footer {
+	background-color: #000000;
+	
+}
+.footerText {
+	color:white;
+	font-size:1.2em;
+}
+.footerHome {
+	text-decoration:none; 
+	color:white;
+	float:right;
+	font-size:1.2em;
+
 }
 #myMenu {
 	list-style-type: none;
@@ -36,7 +104,7 @@
 
 ul {
 	padding:0px;
-	background-color: #62cc6d;
+	background-color: #c0e38a;
 	font-size: 1.75em;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -54,7 +122,7 @@ li {
 	font-family: Arial, Helvetica, sans-serif;
 }
 li:hover {
-	background-color: #23752c;
+	background-color: #8bab59;
 }
 a:visited {
 	text-decoration: none; 
@@ -67,5 +135,16 @@ a:hover {
 }
 a:active {
 	text-decoration: none; 
+}
+th{
+	font-size:1.3em;
+	font-weight: bold;
+}
+tr{
+	font-size:1.1em;
+	font-weight: bold;
+}
+table, th, td {
+  border: 1px solid black;
 }
 
