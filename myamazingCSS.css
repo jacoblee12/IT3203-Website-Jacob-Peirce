@@ -3,6 +3,9 @@
     margin: auto;
     background-color: #c0e38a;
 }
+.tableText {
+	font-family: Arial, Helvetica, sans-serif;
+}
 #outerContainerHeader {
     display: flex;
 	flex-direction: row;
